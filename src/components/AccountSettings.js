@@ -13,7 +13,7 @@ const AccountSettings = () => {
         </div>
       
       <div className="profile">
-        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profile Picture" className='avatar'/>
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user avatar" className='avatar'/>
         <div>
           <h3>{user.fullName}</h3>
           <p>{user.email}</p>
